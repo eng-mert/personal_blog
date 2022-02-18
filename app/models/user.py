@@ -1,6 +1,6 @@
 from datetime import datetime
 from hashlib import md5
-from models import Model
+from app.models import Model
 from werkzeug.security import generate_password_hash, check_password_hash
 
 

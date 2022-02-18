@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="112aedb6-5c95-4c59-af1d-dae8f4c105b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/dashboard/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/routes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/routes/article.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/routes/category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/demo/chart-area-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/demo/chart-bar-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/demo/chart-pie-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/demo/datatables-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/assets/img/error-404-monochrome.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/bootstrap-theme/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/bootstrap-theme/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/js/datatables-simple-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/articles/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/articles/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/articles/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/articles/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/categories/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/categories/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/categories/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/categories/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/includes/_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/includes/_navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/includes/_sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/projects/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/projects/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/projects/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/projects/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/subscribers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/public/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/public/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/public/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/public/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/public/project.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/public/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/personal_blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/personal_blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/authorizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail_sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_sender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/article.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/article.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25IAaGHOw4WO8hthDi5q3xAgH5o" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/static/bootstrap-theme" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/static/bootstrap-theme" />
+      <recent name="$PROJECT_DIR$/app/static" />
+      <recent name="$PROJECT_DIR$/app/templates/dashboard/subscribers" />
+      <recent name="$PROJECT_DIR$/app/templates/dashboard" />
+      <recent name="$PROJECT_DIR$/app/templates/dashboard/categories" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/templates/public" />
+      <recent name="$PROJECT_DIR$/app/dashboard" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="personal_blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="112aedb6-5c95-4c59-af1d-dae8f4c105b1" name="Changes" comment="" />
+      <created>1645204290393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645204290393</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

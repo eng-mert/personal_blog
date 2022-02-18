@@ -14,5 +14,3 @@ class Config:
     # gmail authentication
     MAIL_USERNAME = "mertyuusf@gmail.com"
     MAIL_PASSWORD = "05314847769Mert"
-
-    pass

@@ -1,7 +1,7 @@
 from flask import url_for, render_template
 from itsdangerous import URLSafeTimedSerializer
 
-from models.user import User
+from app.models.user import User
 from config import Config
 import smtplib
 from email.message import EmailMessage

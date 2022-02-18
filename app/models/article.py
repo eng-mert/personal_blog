@@ -1,5 +1,5 @@
 from datetime import datetime
-from models.model import Model
+from app.models.model import Model
 
 
 class Article(Model):

@@ -1,4 +1,4 @@
-from models import User
+from app.models import User
 from flask import session, redirect, url_for, flash
 from functools import wraps
 
