@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template
 
-public_blueprint = Blueprint('/', __name__)
+public_blueprint = Blueprint('public', __name__)
 
 
 @public_blueprint.route('/index')

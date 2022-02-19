@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="112aedb6-5c95-4c59-af1d-dae8f4c105b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/file_uploads.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/comment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/articles/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/auth/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/auth/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/routes/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/auth/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/auth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/auth/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/routes/article.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/routes/article.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/article.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/article.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dashboard/articles/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/dashboard/articles/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dashboard/articles/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/dashboard/articles/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dashboard/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/dashboard/articles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dashboard/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/dashboard/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dashboard/categories/create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dashboard/categories/delete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dashboard/categories/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/routes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/routes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dashboard/includes/_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/dashboard/includes/_navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/authorizer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +55,10 @@
       <recent name="$PROJECT_DIR$/app/templates/dashboard" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/templates/public" />
+      <recent name="$PROJECT_DIR$/app/templates" />
       <recent name="$PROJECT_DIR$/app/dashboard" />
+      <recent name="$PROJECT_DIR$/app/templates/dashboard" />
+      <recent name="$PROJECT_DIR$/app/templates/public" />
     </key>
   </component>
   <component name="RunManager">

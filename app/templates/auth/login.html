@@ -1,0 +1,18 @@
+{% extends './auth/base.html' %}
+
+{% block content %}
+<div class="container pt-5">
+    <div class="row mt-5 pt-5">
+        <div class="col-12 col-md-6 mx-auto pt-5">
+            <p class="fw-bolder">Login Form</p>
+
+            <form action="" method="post" class="mt-4">
+                <input type="email" name="email" id="email" class="form-control mb-3" placeholder="Email" required>
+                <input type="password" name="password" id="password" class="form-control mb-3" placeholder="Password" required>
+                <input type="submit" value="Login" class="btn btn-primary mb-3">
+                <a href="{{url_for('auth.register')}}" class="btn btn-light mb-3">I don't have account</a>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

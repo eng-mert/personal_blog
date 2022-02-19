@@ -43,10 +43,10 @@ class Authorizer:
     def admin_only(cls, func):
         @wraps(func)
         def decorated_function(*args, **kwargs):
-            if cls.current_user and cls.current_user.is_admin:
+            if (cls.current_user or 'email' in session) and cls.current_user.is_admin:
                 return func(*args, **kwargs)
             else:
-                return redirect(url_for('main.index'))
+                return redirect(url_for('public.index'))
 
         return decorated_function
 
@@ -54,10 +54,10 @@ class Authorizer:
     def login_required(cls, func):
         @wraps(func)
         def decorated_function(*args, **kwargs):
-            if cls.current_user:
+            if cls.current_user or 'email' in session:
                 return func(*args, **kwargs)
             else:
                 flash('Login First', 'warning')
-                return redirect(url_for('auth.login'))
+                return redirect(url_for('public.index'))
 
         return decorated_function
