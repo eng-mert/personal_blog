@@ -2,59 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="112aedb6-5c95-4c59-af1d-dae8f4c105b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/dashboard/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/routes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/routes/article.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dashboard/routes/category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/assets/demo/chart-area-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/assets/demo/chart-bar-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/assets/demo/chart-pie-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/assets/demo/datatables-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/assets/img/error-404-monochrome.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/bootstrap-theme/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/bootstrap-theme/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/js/datatables-simple-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/articles/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/articles/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/articles/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/articles/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/categories/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/categories/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/categories/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/categories/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/includes/_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/includes/_navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/includes/_sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/projects/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/projects/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/projects/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/projects/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/subscribers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/public/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/public/article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/public/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/public/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/public/project.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/public/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/personal_blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/personal_blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/authorizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_sender.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/article.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/article.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/dashboard/categories/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/routes/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/routes/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dashboard/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/dashboard/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dashboard/includes/_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/dashboard/includes/_sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,15 +39,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/static/bootstrap-theme" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/templates/dashboard/categories" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/templates/dashboard/categories" />
       <recent name="$PROJECT_DIR$/app/static/bootstrap-theme" />
       <recent name="$PROJECT_DIR$/app/static" />
       <recent name="$PROJECT_DIR$/app/templates/dashboard/subscribers" />
       <recent name="$PROJECT_DIR$/app/templates/dashboard" />
-      <recent name="$PROJECT_DIR$/app/templates/dashboard/categories" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/templates/public" />

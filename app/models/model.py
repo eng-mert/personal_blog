@@ -34,9 +34,15 @@ class Model(metaclass=ABCMeta):
     @classmethod
     def find_one(cls, **kwargs):
         record = Database.find_one(cls.collection, **kwargs)
-
         if record:
             return cls(**record)
+        return None
+
+    @classmethod
+    def find_many(cls, **kwargs):
+        records = Database.find_many(cls.collection, **kwargs)
+        if records:
+            return [cls(**record) for record in records]
         return None
 
     @classmethod

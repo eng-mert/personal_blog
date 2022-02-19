@@ -58,3 +58,7 @@ class Database:
                          'has_prev': True,
                          'has_next': False, })
         return data
+
+    @classmethod
+    def find_many(cls, collection, **kwargs):
+        return cls.db[collection].find(kwargs)

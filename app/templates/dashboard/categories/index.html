@@ -1,5 +1,39 @@
 {% extends './dashboard/base.html' %}
 
 {% block content %}
-<h1>Categories</h1>
+<div class="container pt-4">
+    <div class="row  mb-4">
+        <div class="col-12 col-md-8 mx-auto">
+            <form action="{{url_for('dashboard.category.create')}}" method="post">
+                <input type="text" name="category" id="category" class="form-control mb-3" placeholder="Category Name"
+                       required>
+                <select name="parent_id" id="parentField" class="form-select mb-3">
+                    <option value="">Select Parent Category</option>
+
+                    {% if categories %}
+                    {% for category in categories %}
+                    <option value="{{category._id}}">{{category.title}}</option>
+                    {% endfor %}
+                    {% endif %}
+                </select>
+                <input type="submit" value="Create New" class="btn btn-primary mb-3">
+            </form>
+        </div>
+    </div>
+
+    <div class="row  mb-4">
+        <div class="col-12 col-md-8 mx-auto">
+            <ul class="list-group">
+                {% for category in categories %}
+                <li class="list-group-item d-flex align-items-center">
+                    <p id="category-title" class="fw-bolder my-auto">{{category.title}}</p>
+                    <a href="{{url_for('dashboard.category.get_one',record_id=category._id)}}" class="btn btn-outline-primary btn-sm ms-auto">View</a>
+                </li>
+                {% endfor %}
+
+            </ul>
+        </div>
+
+    </div>
+</div>
 {% endblock %}

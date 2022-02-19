@@ -1,0 +1,82 @@
+{% extends './dashboard/base.html' %}
+
+{% block content %}
+<div class="container pt-4">
+    <div class="row  mb-4">
+        <div class="col-12 col-md-8 mx-auto">
+            <h3 class="mb-3 text-center mb-5">Analysis of <span class="fw-bolder">{{parent.title}}</span> </h3>
+
+            <div class="row row-cols-md-4 mb-3">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-header">
+                            <p class="text-center fw-bolder fs-5">Sub Categories</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-center">{{parent.children|length}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-header">
+                            <p class="text-center fw-bolder fs-5">Articles</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-center">{{parent.articles|length}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-header">
+                            <p class="text-center fw-bolder fs-5">Comments</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-center">2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-header">
+                            <p class="text-center fw-bolder fs-5">Views</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-center">2</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <p class="fw-bolder mb-3">
+                SubCategories
+            </p>
+
+            <ul class="list-group mb-3">
+                {% if parent.children %}
+                {% for category in parent.children %}
+                <li class="list-group-item d-flex align-items-center">
+                    <p id="category-title" class="fw-bolder my-auto">{{category.title}}</p>
+                    <a href="{{url_for('dashboard.category.delete',record_id=category._id)}}" class="btn btn-danger ms-auto">Delete</a>
+                </li>
+                {% endfor%}
+                {% endif %}
+            </ul>
+
+            <div class="row mb-3 mt-5">
+                <div class="col-12">
+                    <p class="fw-bold">Danger Area</p>
+
+                    <p class="fw-bolder">
+                        ** To be able to delete this Category you must check all subcategories and make sure there are no articles with this category or one of its Children
+                    </p>
+
+                    <a href="{{url_for('dashboard.category.delete',record_id=parent._id)}}" class="btn btn-danger">Delete Category</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
