@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, request, redirect, url_for
 
-from app.file_uploads import save_image
+from file_uploads import save_image
 from app.models import Category, Article
 
 article_blueprint = Blueprint('article', __name__)

@@ -6,6 +6,7 @@ public_blueprint = Blueprint('public', __name__)
 @public_blueprint.route('/index')
 @public_blueprint.route('/')
 def index():
+
     return render_template('public/index.html',title='Home')
 
 
