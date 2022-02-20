@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8cdbe32-07b9-45fe-af50-0b36dc47d079" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img-2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/personal_blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/personal_blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/routes/article.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/routes/article.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dashboard/articles/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/dashboard/articles/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file_uploads.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_uploads.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/bootstrap-theme/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/bootstrap-theme/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/bootstrap-theme/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/bootstrap-theme/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dashboard/includes/_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/dashboard/includes/_footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dashboard/includes/_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/dashboard/includes/_sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img-2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +37,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/static/bootstrap-theme" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/static/bootstrap-theme" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">

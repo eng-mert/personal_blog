@@ -59,7 +59,7 @@ def edit(record_id):
         selected_record.update(title=title,category_id=category_id,
                                state=draft,content=content,tags=tags)
         if cover.filename:
-            selected_record.update(cover=save_image(cover))
+            selected_record.update(cover=upload_image_to_s3(cover))
         return redirect(url_for('dashboard.article.get_one',record_id=selected_record._id))
     return render_template('dashboard/articles/edit.html', title='edit article', categories=categories,
                            article=selected_record)
