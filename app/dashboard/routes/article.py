@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, request, redirect, url_for
 
-from file_uploads import save_image
+from file_uploads import upload_image_to_s3
 from app.models import Category, Article
 
 article_blueprint = Blueprint('article', __name__)
@@ -38,7 +38,7 @@ def create():
         tags = request.form.get('tags')
 
         new_article = Article(title=title, content=content, category_id=category_id,
-                              state=draft, tags=tags, cover=save_image(cover))
+                              state=draft, tags=tags, cover=upload_image_to_s3(cover))
         new_article.save_to_db()
         return redirect(url_for('dashboard.article.index'))
     return render_template('dashboard/articles/create.html', title='create article',

@@ -14,3 +14,9 @@ class Config:
     # gmail authentication
     MAIL_USERNAME = "mertyuusf@gmail.com"
     MAIL_PASSWORD = "05314847769Mert"
+
+    # S3 Keys
+    ACCESS_KEY_ID = 'AKIA6QEZ4CYFPTDI6BBL'
+    ACCESS_SECRET_KEY = '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'
+    S3_BUCKET_NAME = "flask-buk"
+    S3_LOCATION = f"https://{S3_BUCKET_NAME}.s3.us-west-1.amazonaws.com/"

@@ -3,12 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="d8cdbe32-07b9-45fe-af50-0b36dc47d079" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/img-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/personal_blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/personal_blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dashboard/routes/article.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/routes/article.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/file_uploads.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_uploads.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dashboard/articles/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/dashboard/articles/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_uploads.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_uploads.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +71,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="file_uploads" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="personal_blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_uploads.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="personal_blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,6 +116,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.file_uploads" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
